@@ -32,7 +32,7 @@ import { DragScrollItemDirective } from './ngx-drag-scroll-item';
     }
     .drag-scroll-content {
       height: 100%;
-      overflow: auto;
+      overflow: hidden;
       white-space: nowrap;
     }
     .drag-scroll-content::-webkit-scrollbar {
