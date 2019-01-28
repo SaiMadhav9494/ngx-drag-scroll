@@ -40,7 +40,7 @@ import { DragScrollItemDirective } from './ngx-drag-scroll-item';
       background: white;
     }
    .drag-scroll-content::-webkit-scrollbar-thumb {
-    background-color: #E0E0E0;
+    background-color: red;
     outline: 1px solid slategrey;
     }
     `]
