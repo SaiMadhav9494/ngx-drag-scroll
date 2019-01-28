@@ -35,13 +35,18 @@ import { DragScrollItemDirective } from './ngx-drag-scroll-item';
       overflow: auto;
       white-space: nowrap;
     }
-    .drag-scroll-content::-webkit-scrollbar {
-      width: 1px;
-      background: white;
+    .drag-scroll-content::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
     }
-   .drag-scroll-content::-webkit-scrollbar-thumb {
-    background-color: #E0E0E0;
-    outline: 1px solid slategrey;
+
+    .drag-scroll-content::-webkit-scrollbar {
+      width: 6px;
+      background-color: #F5F5F5;
+    }
+
+    .drag-scroll-content::-webkit-scrollbar-thumb {
+      background-color: #000000;
     }
     `]
 })
