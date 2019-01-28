@@ -36,11 +36,11 @@ import { DragScrollItemDirective } from './ngx-drag-scroll-item';
       white-space: nowrap;
     }
     .drag-scroll-content::-webkit-scrollbar {
-      width: 3px;
+      width: 1px;
       background: white;
     }
    .drag-scroll-content::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: #E0E0E0;
     outline: 1px solid slategrey;
     }
     `]
